@@ -1,0 +1,45 @@
+@import "../fonts/stylesheet.css";
+
+body {
+	width: 800px;
+	border: 0px 1px 0px 1px solid #d3d3d3;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#f6f1b2), to(#4599b2)) repeat-X;
+	background: -moz-linear-gradient(top, #f6f1b2, #4599b2);
+	-ms-linear-gradient(left,  #f6f1b2, #4599b2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6f1b2, endColorstr=#4599b2);
+}
+
+#cabecalho h1 {
+	font-family: 'Ravie';
+	font-size: 36px;
+	color: #e90c0c;
+}
+
+
+#cabecalho h2 {
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #333;
+}
+
+#cabecalho mark {
+	color: #d027aa;
+}
+
+#conteudo {
+	width: 646px;
+	border: #d3d3d3;
+
+}
+
+#cardapio {
+	background-color: #fff;
+	/*?*/
+	opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#siri {
+	position: absolute;
+}
