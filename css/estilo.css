@@ -1,6 +1,6 @@
 @import "../fonts/stylesheet.css";
 
-body {
+#recipiente {
 	width: 800px;
 	border: 0px 1px 0px 1px solid #d3d3d3;
 
@@ -32,14 +32,37 @@ body {
 	border: #d3d3d3;
 
 }
+#lateral {
+	width: 154px;
+	box-sizing: border-box;
+}
+
+#lateral h2 {
+	font-family: 'Verdana';
+	color: #333 bold;
+	font-size: 48px; 
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
 
 #cardapio {
 	background-color: #fff;
+	width: 646px;
+	box-sizing: border-box;
+	position: absolute;
+	float: left;
+
 	/*?*/
 	opacity: 0.2;
     filter: alpha(opacity=20);
+    border: 1px solid #aac0ae;
 }
 
-#siri {
-	position: absolute;
+img {
+	/*position: absolute;*/
+}
+
+#rodape img {
+	margin-bottom:25px; 
 }
