@@ -46,13 +46,18 @@
     transform: rotate(-90deg);
 }
 
-#cardapio {
-	background-color: #fff;
-	width: 646px;
-	box-sizing: border-box;
+#lateral #siri {
 	position: absolute;
 	float: left;
+}
 
+#cardapio {
+	background-color: #fff;
+	font-family: 'Verdana';
+	font-size: 14px;
+	color: #333;
+	width: 646px;
+	box-sizing: border-box;
 	/*?*/
 	opacity: 0.2;
     filter: alpha(opacity=20);
@@ -64,5 +69,20 @@ img {
 }
 
 #rodape img {
-	margin-bottom:25px; 
+	margin-bottom:25px;
+	margin-left: 15px;
+	margin-top: 46px;
+	float: right;
 }
+
+#ticket img {
+	margin: 295px 0px 0px 0px;
+	width: 89px;
+}
+
+/*
+#ticket img:hover {
+	margin: 295px 0px 0px 0px;
+	width: 89px;
+	position: fixed;
+}*/
