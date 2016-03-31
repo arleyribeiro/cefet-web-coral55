@@ -5,6 +5,7 @@ body {
 	width: 800px;
 	margin: 0 auto;
 }
+
 #recipiente {
 	width: 800px;
 	border: 0px 1px 0px 1px solid #d3d3d3;
@@ -19,7 +20,8 @@ body {
 }
 
 #cabecalho h1, h2 {
-	margin-left: 154px;
+	margin-left: 154px;	
+	font-family: 'Trebuchet MS','Arial', 'Helvetica', 'sans-serif';
 }
 
 #cabecalho h1 {
@@ -30,12 +32,12 @@ body {
 }
 
 
-#cabecalho h2 {
+#cabecalho > h2 {
 	margin-top: 0;
-	font-family: 'Trebuchet MS';
 	font-size: 24px;
 	color: #333;
-	text-align: right;
+	text-align: right;	
+	padding-left: 120px;
 }
 
 #cabecalho span {
@@ -95,7 +97,7 @@ body {
     left: 705px;*/
     position: absolute;
     left: 965px;
-    top: 637px;
+    top: 663px;
     margin-top: 46px;
     margin-bottom: 25px;
 }
@@ -124,12 +126,8 @@ body {
 	float: right;	
 }
 
-#cardapio > h3{
-	margin-bottom: 10px; 	
-}
-
 #cardapio #last_div {
-	margin-bottom: 38px;
+	margin-bottom: 40px;
 }
 
 #ticket img {
