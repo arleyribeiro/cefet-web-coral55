@@ -96,11 +96,6 @@ body {
     top: 640px;
 }
 
-#ticket img {
-	margin: 295px 0px 0px 0px;
-	width: 89px;
-	
-}
 
 
 #cardapio {
@@ -133,16 +128,10 @@ body {
 	margin-bottom: 32px;
 }
 
-
-img {
-	/*position: absolute;*/
-}
-
 #ticket img {
 	margin: 0px 0px 0px 0px;
-    width: 89px;
     position: absolute;
-    left: -40px;
+    left: -69px;
     top: 295px;
 }
 
