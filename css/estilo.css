@@ -54,6 +54,8 @@ body {
 }
 
 #lateral h2 {
+	margin-left: 0px;
+
 	font-family: 'Verdana';
 	color: #333;
 	font-weight: bold;
@@ -68,7 +70,6 @@ body {
 	margin-top: 7px;
 	position: relative;
 	background-position: right top;
-	float: left;
 }
 
 #cardapio {
