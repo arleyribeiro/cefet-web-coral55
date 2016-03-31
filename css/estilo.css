@@ -95,7 +95,7 @@ body {
     left: 705px;*/
     position: absolute;
     left: 965px;
-    top: 619px;
+    top: 637px;
     margin-top: 46px;
     margin-bottom: 25px;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 #cardapio > div{
-	margin-bottom: 10px;	
+	margin-bottom: 11px;	
 }
 
 #cardapio > div > span {
@@ -129,7 +129,7 @@ body {
 }
 
 #cardapio #last_div {
-	margin-bottom: 35px;
+	margin-bottom: 38px;
 }
 
 #ticket img {
