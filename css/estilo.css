@@ -14,13 +14,16 @@ body {
 	-ms-linear-gradient(left,  #f6f1b2, #4599b2);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6f1b2, endColorstr=#4599b2);
 }
+#cabecalho {
+	position: absolute;
+}
 
-#cabecalho h1, h2 {	
-	margin: 0;
+#cabecalho h1, h2 {
 	margin-left: 154px;
 }
 
 #cabecalho h1 {
+	margin-bottom: 0;
 	font-family: 'Ravie';
 	font-size: 36px;
 	color: #e90c0c;
@@ -28,18 +31,21 @@ body {
 
 
 #cabecalho h2 {
+	margin-top: 0;
 	font-family: 'Trebuchet MS';
 	font-size: 24px;
 	color: #333;
+	text-align: right;
 }
 
-#cabecalho mark {
+#cabecalho span {
 	color: #d027aa;
 }
 
 #conteudo {
-	width: 646px;
+	width: 800px;
 	border: #d3d3d3;
+	box-sizing: border-box;
 
 }
 #lateral {
@@ -51,32 +57,32 @@ body {
 	font-family: 'Verdana';
 	color: #333;
 	font-weight: bold;
-	font-size: 48px; 
+	font-size: 48px;
 	-ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
 
-
 }
 
 #siri {
+	margin-top: 7px;
 	position: relative;
 	background-position: right top;
 	float: left;
 }
 
 #cardapio {
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.2);
 	font-family: 'Verdana';
 	font-size: 14px;
 	color: #333;
 	width: 646px;
 	box-sizing: border-box;
 	/*?*/
-	opacity: 0.2;
-    filter: alpha(opacity=20);
-    border: 1px solid #aac0ae;
-    display: block;
+  border: 1px solid #aac0ae;
+	position: absolute;
+	top: 135px;
+	margin-left: 154px;
 }
 
 img {
