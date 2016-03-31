@@ -1,5 +1,10 @@
 @import "../fonts/stylesheet.css";
 
+body {
+
+	width: 800px;
+	margin: 0 auto;
+}
 #recipiente {
 	width: 800px;
 	border: 0px 1px 0px 1px solid #d3d3d3;
@@ -10,6 +15,11 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f6f1b2, endColorstr=#4599b2);
 }
 
+#cabecalho h1, h2 {	
+	margin: 0;
+	margin-left: 154px;
+}
+
 #cabecalho h1 {
 	font-family: 'Ravie';
 	font-size: 36px;
@@ -18,7 +28,7 @@
 
 
 #cabecalho h2 {
-	font-family: "Trebuchet MS";
+	font-family: 'Trebuchet MS';
 	font-size: 24px;
 	color: #333;
 }
@@ -39,15 +49,19 @@
 
 #lateral h2 {
 	font-family: 'Verdana';
-	color: #333 bold;
+	color: #333;
+	font-weight: bold;
 	font-size: 48px; 
 	-ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
+
+
 }
 
-#lateral #siri {
-	position: absolute;
+#siri {
+	position: relative;
+	background-position: right top;
 	float: left;
 }
 
@@ -62,6 +76,7 @@
 	opacity: 0.2;
     filter: alpha(opacity=20);
     border: 1px solid #aac0ae;
+    display: block;
 }
 
 img {
@@ -78,6 +93,7 @@ img {
 #ticket img {
 	margin: 295px 0px 0px 0px;
 	width: 89px;
+	position:absolute;
 }
 
 /*
