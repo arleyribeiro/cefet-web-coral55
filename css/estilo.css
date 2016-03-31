@@ -55,7 +55,7 @@ body {
 
 #lateral > h2 {
 	margin-left: 0px;
-	margin-top: 220px;
+	margin-top: 213px;
 	font-family: 'Verdana';
 	color: #333;
 	font-weight: bold;
@@ -74,11 +74,13 @@ body {
 
 #peixe {
 	position: relative;
+	margin-top: 14px;
 	right: 44px;
 }
 
 #bolhas {
 	position: relative;
+	margin-top: 15px;
 	left: 42px;
 }
 
@@ -92,8 +94,10 @@ body {
 	position: relative;
     left: 705px;*/
     position: absolute;
-    left: 705px;
-    top: 640px;
+    left: 965px;
+    top: 619px;
+    margin-top: 46px;
+    margin-bottom: 25px;
 }
 
 
@@ -107,7 +111,7 @@ body {
 	box-sizing: border-box;
  	border: 1px solid #aac0ae;
 	position: absolute;
-	top: 135px;
+	top: 105px;
 	margin-left: 154px;
 	padding: 0px 10px 10px 10px;
 }
@@ -125,7 +129,7 @@ body {
 }
 
 #cardapio #last_div {
-	margin-bottom: 32px;
+	margin-bottom: 35px;
 }
 
 #ticket img {
