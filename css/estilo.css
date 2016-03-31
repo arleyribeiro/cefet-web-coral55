@@ -1,7 +1,6 @@
 @import "../fonts/stylesheet.css";
 
 body {
-
 	width: 800px;
 	margin: 0 auto;
 }
@@ -31,7 +30,6 @@ body {
 	color: #e90c0c;
 }
 
-
 #cabecalho > h2 {
 	margin-top: 0;
 	font-size: 24px;
@@ -50,6 +48,7 @@ body {
 	box-sizing: border-box;
 
 }
+
 #lateral {
 	width: 154px;
 	box-sizing: border-box;
@@ -65,7 +64,6 @@ body {
 	-ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
-
 }
 
 #siri {
@@ -88,13 +86,6 @@ body {
 
 
 #rodape img {
-	/*margin-bottom:25px;
-	margin-left: 15px;
-	margin-top: 46px;
-     float: right;
-
-	position: relative;
-    left: 705px;*/
     position: absolute;
     left: 965px;
     top: 663px;
@@ -102,20 +93,18 @@ body {
     margin-bottom: 25px;
 }
 
-
-
 #cardapio {
+	width: 646px;
+	box-sizing: border-box;
+	top: 105px;
+	margin-left: 154px;
+	padding: 0px 10px 10px 10px;
 	background-color: rgba(255,255,255,0.2);
 	font-family: 'Verdana';
 	font-size: 14px;
 	color: #333;
-	width: 646px;
-	box-sizing: border-box;
  	border: 1px solid #aac0ae;
 	position: absolute;
-	top: 105px;
-	margin-left: 154px;
-	padding: 0px 10px 10px 10px;
 }
 
 #cardapio > div{

@@ -13,6 +13,7 @@ function instantiateBubble() {
     newBubbleEl.style.opacity = 1;
 	newBubbleEl.style.transform = 'scale(' + (Math.random() / 2 + 0.5) + ')';
     newBubbleEl.style.zIndex = 10000;
+    
 
     document.body.appendChild(newBubbleEl);
     window.setTimeout(function() {
