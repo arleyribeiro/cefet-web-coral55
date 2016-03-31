@@ -3,7 +3,7 @@ function loadImage(path) {
     img.src = path;
     return img;
 }
-var bubbleEl = loadImage('images/bolha.png');
+var bubbleEl = loadImage('images/bolhas.png');
 function instantiateBubble() {
     var newBubbleEl = bubbleEl.cloneNode();
     newBubbleEl.style.position = 'fixed';
