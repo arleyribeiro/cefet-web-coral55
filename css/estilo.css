@@ -79,17 +79,19 @@ body {
 
 #bolhas {
 	position: relative;
-	margin-top: 15px;
-	left: 42px;
+    margin-top: 15px;
+    margin-right: 20px;
+    left: 42px;
 }
 
 
 #rodape img {
-    position: absolute;
+	position: absolute;
     left: 965px;
-    top: 663px;
+    top: 667px;
     margin-top: 46px;
     margin-bottom: 25px;
+    margin-right: 15px;
 }
 
 #cardapio {
@@ -120,7 +122,7 @@ body {
 }
 
 #cardapio #last_div {
-	margin-bottom: 38px;
+	margin-bottom: 36px;
 }
 
 #ticket img {
